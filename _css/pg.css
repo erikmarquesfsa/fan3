@@ -22,3 +22,10 @@
 #imgBanner{
     height: 450px;
 }
+
+#mainQuemSomos{
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
