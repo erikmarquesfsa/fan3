@@ -184,7 +184,7 @@
               <label for="inputCEP" class="form-label">
                 CEP:
               </label>
-              <input type="text" class="form-control" id="cep" name="cep" required>
+              <input type="text" class="form-control cep" id="cep" name="cep" required>
             </div>
             <div class="col-md-12">
               <label for="inputRua" class="form-label">
@@ -224,6 +224,35 @@
       </div>
     </section>
 
+    <section id="footer">
+      <footer>
+        <div class="container-fluid">
+          <div class="row align-self-center">
+            <div class="col-sm-4 text-center align-self-center">
+              <img src="_images/logo.png" class="logo_footer">
+            </div>
+
+            <div class="col-sm-4 text-center align-self-center">
+              R. Eduardo José dos Santos
+              CEP: 44100-000
+              Garibaldi, Salvador
+            </div>
+            <div class="col-sm-4 text-center align-self-center">
+              <form class="row g-2">
+                <div class="col-auto">
+                  <input type="email" name="email" class="form-control" placeholder="INforme seu E-mail">
+                </div>
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </footer>
+    </section>
+
 
 
     <script
@@ -231,5 +260,14 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script language="javascript">
+      $(document).ready(function(){
+        $('.cep').mask('00000-000');
+    });
+    </script>
+
   </body>
 </html>
