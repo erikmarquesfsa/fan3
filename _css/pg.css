@@ -47,3 +47,17 @@
     font-weight: bold;
     font-size: 20px;
 }
+
+.destaque{
+    font-size: 16px;
+    color: #000;
+    padding: 15px;
+    padding-top: 10px;
+    font-weight: 100;
+}
+
+.icones{
+    color: #3498db;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
